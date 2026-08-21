@@ -1,0 +1,70 @@
+#ive-toggle {
+  position: fixed !important;
+  top: 16px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  z-index: 2147483647 !important;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50% !important;
+  border: none !important;
+  background: #5865F2 !important;
+  color: #fff !important;
+  font-size: 18px !important;
+  cursor: pointer !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,.3) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0 !important;
+}
+
+#ive-panel {
+  position: fixed !important;
+  top: 16px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  z-index: 2147483647 !important;
+  display: none;
+  align-items: center !important;
+  gap: 8px !important;
+  background: rgba(20,20,24,.94) !important;
+  padding: 8px !important;
+  border-radius: 10px !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,.3) !important;
+  font-family: Arial, sans-serif !important;
+}
+
+#ive-status {
+  color: #fff !important;
+  font-size: 12px !important;
+  margin-right: 4px !important;
+  white-space: nowrap !important;
+}
+
+.ive-button {
+  padding: 10px 14px !important;
+  background: #5865F2 !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 8px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  white-space: nowrap !important;
+}
+
+.ive-button:hover {
+  filter: brightness(1.08);
+}
+
+.ive-button:disabled {
+  opacity: .55 !important;
+  cursor: wait !important;
+}
+
+#ive-close {
+  background: transparent !important;
+  padding: 10px 12px !important;
+  font-weight: 700 !important;
+}

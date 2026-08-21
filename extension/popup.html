@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>VOD Comment Exporter</title>
+
+  <link
+    rel="stylesheet"
+    href="popup.css"
+  >
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="header">
+
+  <div class="title">
+    VOD Comment Exporter
+  </div>
+
+  <div class="subtitle">
+    Insights.gg
+  </div>
+
+  <div class="description">
+    Export comments and replies from
+    Insights.gg VOD reviews in the format
+    that works best for you.
+  </div>
+
+</div>
+
+    <div class="section">
+
+      <div class="section-title">
+        Export format
+      </div>
+
+      <label class="format-option">
+        <input
+          type="radio"
+          name="format"
+          value="plain"
+        >
+
+        <div>
+          <strong>Plain text</strong>
+          <span>No formatting</span>
+        </div>
+      </label>
+
+      <label class="format-option">
+        <input
+          type="radio"
+          name="format"
+          value="markdown"
+          checked
+        >
+
+        <div>
+          <strong>Markdown</strong>
+          <span>Full Markdown formatting</span>
+        </div>
+      </label>
+
+      <label class="format-option">
+        <input
+          type="radio"
+          name="format"
+          value="discord"
+        >
+
+        <div>
+          <strong>Discord</strong>
+          <span>Discord-compatible formatting</span>
+        </div>
+      </label>
+
+      <label class="format-option">
+        <input
+          type="radio"
+          name="format"
+          value="google"
+        >
+
+        <div>
+          <strong>Google Docs</strong>
+          <span>Rich text formatting</span>
+        </div>
+      </label>
+
+    </div>
+
+    <div class="actions">
+
+      <button
+        id="copyBtn"
+        class="primary"
+      >
+        Copy Comments
+      </button>
+
+      <button
+        id="downloadBtn"
+        class="secondary"
+      >
+        Download Comments
+      </button>
+
+    </div>
+
+    <div
+      id="status"
+      class="status"
+    ></div>
+
+    <div class="support">
+
+  <div class="support-title">
+    🐛 Found a bug?
+  </div>
+
+  <div class="support-text">
+    If you find an error or have a suggestion,
+    send me a message on Discord:
+    <strong>.darkons</strong>
+  </div>
+
+</div>
+
+  </div>
+
+  <script src="popup.js"></script>
+
+</body>
+</html>
