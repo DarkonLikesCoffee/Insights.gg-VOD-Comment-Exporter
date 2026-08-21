@@ -1,6 +1,8 @@
 # Insights.gg VOD Comment Exporter
 
-A free Chrome extension that lets you copy and export comments and replies from Insights.gg VOD reviews.
+![Insights.gg VOD Comment Exporter](assets/preview.png)
+
+A free Chrome extension that lets you copy and export comments...
 
 ## Features
 
