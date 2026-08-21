@@ -38,4 +38,4 @@ You can also open an issue in this repository.
 
 ## License
 
-See [LICENSE](LICENSE).
+See [LICENSE](LICENSE.md).
